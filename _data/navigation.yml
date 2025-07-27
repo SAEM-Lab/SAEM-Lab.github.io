@@ -9,25 +9,25 @@
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=P-7ICrQAAAAJ&hl=en
+    target: "_blank"
 
-  - title: "Talks"
-    url: /talks/    
+#  - title: "Talks"
+#    url: /talks/    # just do CV
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
+  # - title: "Awards"  # unnecessary
+  #   url: /awards/
+
+#  - title: "Teaching"  # unnecessary
+#    url: /teaching/
+
+  - title: "Software"
+    url: https://github.com/kavanase
+    target: "_blank"
     
   - title: "CV"
-    url: /cv/
+    url: https://kavanase.github.io/files/Sean_Kavanagh_CV.pdf
+    target: "_blank"
     
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+#  - title: "Links"  # redundant
+#    url: /links/

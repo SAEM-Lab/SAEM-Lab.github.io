@@ -1,56 +1,90 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+#title: "Seán R. Kavanagh" # Maybe delete this if image renders well
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<!-- <img align="right" width="100" height="100" src="images\android-chrome-192x192.png" style="padding: 10px"> -->
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+### What I Do
+I'm an Environmental Fellow at Harvard University, hosted by the [Materials Intelligence Research group](https://mir.g.harvard.edu/research) of Prof. Boris Kozinsky. My research uses computational methods such as Density Functional Theory (DFT) and machine learning (ML) to simulate and predict the properties of materials – in particular defects in solids. Alongside, I have been involved in the development of several computational chemistry/physics/materials science research software codes – see my GitHub profile [here](https://github.com/kavanase)! 👨‍💻
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+### Recent Highlights
+[//]: # (put Cambridge announcement post here when ready)
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7264012186040053760?collapsed=1" height="576" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7341089685600935937?collapsed=1" height="671" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7317903281270263809?collapsed=1" height="520" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Our comprehensive i̶n̶-̶h̶o̶u̶s̶e̶ defect modelling python package 𝙙𝙤𝙥𝙚𝙙 is now fully live!⚛️<br><br>𝙙𝙤𝙥𝙚𝙙 implements the defect<br>simulation workflow in an efficient and user-friendly, yet powerful and fully-flexible, manner.<br><br>See 🧵 for features (1/n)<a href="https://t.co/gdGKcMKd0b">https://t.co/gdGKcMKd0b</a> <a href="https://t.co/3kelGRQIsJ">pic.twitter.com/3kelGRQIsJ</a></p>&mdash; Seán Kavanagh (@Kavanagh_Sean_) <a href="https://twitter.com/Kavanagh_Sean_/status/1780667455297458185?ref_src=twsrc%5Etfw">April 17, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<img align="right" width="400" src="files\doped_SnB_combined_logos.png" style="padding: 10px">[`doped`](https://doped.readthedocs.io/en/latest/), my python defect calculation package (which interfaces with our defect structure-searching code [`ShakeNBreak`](https://shakenbreak.readthedocs.io/en/latest/), and other codes developed in the Scanlon & Walsh groups such as [`easyunfold`](https://smtg-bham.github.io/easyunfold/) and [`py-sc-fermi`](https://py-sc-fermi.readthedocs.io/en/latest/), [`CarrierCapture.jl`](https://github.com/WMD-group/CarrierCapture.jl)) now has a proper [documentation site](https://doped.readthedocs.io/en/latest/), check it out!
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+<br>
+I was delighted to be awarded a Gold Graduate Student Award at the MRS Spring 2023 conference in San Francisco (got 'em on the rebound coach), which was followed by a road trip around California with some great people! 🚗😵‍💫
+<div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%; height: 755px;">
+    <div style="width: 65%; height: 100%; overflow: auto;">
+        <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Massive Congrats to <a href="https://twitter.com/Kavanagh_Sean_?ref_src=twsrc%5Etfw">@Kavanagh_Sean_</a> who won a <a href="https://twitter.com/Materials_MRS?ref_src=twsrc%5Etfw">@Materials_MRS</a> Graduate Student Award Gold Medal at the <a href="https://twitter.com/hashtag/S23MRS?src=hash&amp;ref_src=twsrc%5Etfw">#S23MRS</a>. The only finalist from a European Uni! <a href="https://twitter.com/UCLChemistry?ref_src=twsrc%5Etfw">@UCLChemistry</a> <a href="https://twitter.com/ImpMaterials?ref_src=twsrc%5Etfw">@ImpMaterials</a> <a href="https://twitter.com/CDT_ACM?ref_src=twsrc%5Etfw">@CDT_ACM</a> <a href="https://twitter.com/TCD_Chemistry?ref_src=twsrc%5Etfw">@TCD_Chemistry</a>. 🇮🇪 Very proud supervisor moment for <a href="https://twitter.com/lonepair?ref_src=twsrc%5Etfw">@lonepair</a> and I!! <a href="https://t.co/MCJukcE5XU">pic.twitter.com/MCJukcE5XU</a></p>&mdash; David Scanlon (@scanlond81) <a href="https://twitter.com/scanlond81/status/1646623998996873216?ref_src=twsrc%5Etfw">April 13, 2023</a></blockquote> 
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div style="width: 34%; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+        <img style="width: 100%; margin-bottom: 10px;" src="files/Yosemite.jpeg" alt="Serenity in Yosemite 🍄">
+        <img style="width: 100%;" src="files/Cali_Cruising.jpeg" alt="Wavy 😵‍💫">
+    </div>
+</div>
 
-**Markdown generator**
+I was awarded a UCL-McGill-JSPS Core-to-Core research collaboration grant (£3k) to visit Prof. Yu Kumagai in Tohoku University (October – November 2022), to extend our [defect structure-searching work](https://shakenbreak.readthedocs.io/en/latest/), for a high-throughput study on symmetry-breaking at oxygen vacancies in oxides – hopefully will have a paper ready on this soon. Of course it was all work and no play!
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+<img align="left" width="254" src="files\Japan_Monkeys.jpeg"><img align="centre" width="251" src="files\Japan_Earthquake.jpeg"><img align="right" width="257" src="files\Japan_Tokyo.jpeg">   
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+We were humbled to be featured in the Irish Times newspaper! 😊 🇮🇪 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Look 👀 Irish scientists in the UK featured in the <a href="https://twitter.com/IrishTimes?ref_src=twsrc%5Etfw">@IrishTimes</a> today! Proud day for <a href="https://twitter.com/UCLChemistry?ref_src=twsrc%5Etfw">@UCLChemistry</a> <a href="https://twitter.com/ImpMaterials?ref_src=twsrc%5Etfw">@ImpMaterials</a> And of course all 3 are <a href="https://twitter.com/TCD_Chemistry?ref_src=twsrc%5Etfw">@TCD_Chemistry</a> alums!<a href="https://t.co/6zo2Lp5GpG">https://t.co/6zo2Lp5GpG</a></p>&mdash; Gemma-Louise Davies (she/her) (@GemmaLouDavies) <a href="https://twitter.com/GemmaLouDavies/status/1534970336088838153?ref_src=twsrc%5Etfw">June 9, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+I was delighted to be awarded a Silver Graduate Student Award at the MRS Spring 2022 conference in Hawaii 🎉 🏝
+
+
+<img align="left" width="300" src="files\Silver_GSA_Ad.png">
+<img align="right" width="375" src="files\MRS_GSA_Adidas.jpg">  
+<br/><br/>  
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<br/><br/>
+  
+As well as a Rising Star Award ⭐️ from _Materials Today Chemistry_, an eMRS Young Researcher Award and a Best Presentation Award at eMRS Spring 2022 🗣 
+
+<img align="left" width="251" src="files\eMRS MTC Rising Star Award.png"><img align="centre" width="257" src="files\eMRS_Spring_2022_Best_Presentation_Award_Symposium_G.png"><img align="right" width="257" src="files\eMRS_Spring_2022_Best_Presentation_Award_Symposium_K.png">   
+
+Our _Nature Photonics_ [article](https://www.nature.com/articles/s41566-021-00950-4) on breaking the world record for AgBiS₂ solar cells was featured on a number of [news sites](https://nature.altmetric.com/details/123045210/news) and has been selected as the 'Hero Image' for the March Issue! 🤩
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A research team co-led by PhD candidate <a href="https://twitter.com/Kavanagh_Sean_?ref_src=twsrc%5Etfw">@Kavanagh_Sean_</a> <a href="https://twitter.com/UCLChemistry?ref_src=twsrc%5Etfw">@UCLChemistry</a> <a href="https://twitter.com/imperialcollege?ref_src=twsrc%5Etfw">@imperialcollege</a> and <a href="https://twitter.com/ICFOnians?ref_src=twsrc%5Etfw">@ICFOnians</a> has set a new efficiency record for a solar cell that is 1,000 times thinner than standard silicon-based cells. Published in <a href="https://twitter.com/NaturePhotonics?ref_src=twsrc%5Etfw">@NaturePhotonics</a> <a href="https://twitter.com/scanlond81?ref_src=twsrc%5Etfw">@scanlond81</a> <a href="https://t.co/O0p42cDIkP">https://t.co/O0p42cDIkP</a> <a href="https://t.co/S8nbnPA4uC">pic.twitter.com/S8nbnPA4uC</a></p>&mdash; UCL News (@uclnews) <a href="https://twitter.com/uclnews/status/1493580115489476608?ref_src=twsrc%5Etfw">February 15, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+I was thrilled to be awarded a UCL MAPS (Mathematical & Physical Sciences) Faculty Education Award, and have been nominated for the UCL-wide Provost's Education Awards, for Individual Excellence in Academic Supervision & Tutoring. It's been an absolute pleasure to see the development of the many undergraduate, MSc and PhD students I've worked with over their projects!
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Well done to <a href="https://twitter.com/Kavanagh_Sean_?ref_src=twsrc%5Etfw">@Kavanagh_Sean_</a> being a winner of not only the MAPS Faculty Education Awards 2022 but also for UCL Education Awards 2022 <a href="https://twitter.com/UCLChemistry?ref_src=twsrc%5Etfw">@UCLChemistry</a> <a href="https://t.co/zyc1Jcn3pV">pic.twitter.com/zyc1Jcn3pV</a></p>&mdash; CDT_ACM (@CDT_ACM) <a href="https://twitter.com/CDT_ACM/status/1511689088113553412?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+I got to spend October and November 2021 working at the Max-Planck-Institut für Eisenforschung in Düsseldorf, Germany with group leader Dr Christoph Freysoldt for a project on modelling dynamic defect behaviour, with the work from this to be submitted to and presented at the [RSC Faraday Discussions on Emerging Solar PV Materials](https://www.rsc.org/events/detail/46796/emerging-inorganic-materials-in-thin-film-photovoltaics-faraday-discussion) in July 2022:
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6887732916227448832" height="640" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<br />
+
+Our _Materials Horizons_ and _Chemical Science_ articles [Hidden spontaneous polarisation in the chalcohalide photovoltaic absorber Sn<sub>2</sub>SbS<sub>2</sub>I<sub>3</sub>](https://doi.org/10.1039/D1MH00764E) and [Enhanced visible light absorption in layered Cs<sub>3</sub>Bi<sub>2</sub>Br<sub>9</sub> through mixed-valence Sn(II)/Sn(IV) doping](https://doi.org/10.1039/D1SC03775G) were featured as front covers in October and November 2021
+
+<a href="https://doi.org/10.1039/D1MH00764E">
+  <img align="left" width="375" src="files\MH_Cover.png">
+</a>
+<a href="https://doi.org/10.1039/D1SC03775G">
+  <img align="right" width="375" src="files\Chem_Sci_Cover.png">
+</a>
+
