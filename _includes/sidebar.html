@@ -1,22 +1,68 @@
 {% include base_path %}
 
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+{% if page.sidebar %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src=
-        {% if s.image contains "://" %}
-          "{{ s.image }}"
-        {% else %}
-          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+  <img src="images/sidebar_image.png" alt="{{ site.title }}"  fetchpriority="high" />
+  <div class="sidebar__content">
+    <h3>Contact Details</h3>
+    <p class="sidebar__bio">
+      Seán Kavanagh<br>
+      Assistant Professor in Materials Modelling<br>
+      Yusuf Hamied Department of Chemistry<br>
+      University of Cambridge<br>
+      Lensfield Rd, Cambridge CB2 1EW, UK<br>
+      <br>
+      Email: sk2045 [at] cam.ac.uk
+    </p>
+  </div>
+
+  <div class="sidebar__urls-wrapper">
+    <ul class="sidebar__urls social-icons">
+      <!-- Font Awesome icons / Biographic information  -->
+      <!-- {% if sidebar.location %}
+        <li class="sidebar__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ sidebar.location }}</li>
       {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
+      {% if sidebar.employer %}
+        <li class="sidebar__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ sidebar.employer }}</li>
+      {% endif %} -->
+      {% if sidebar.email %}
+        <li><a href="mailto:{{ sidebar.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% endif %}
+      <!-- {% if sidebar.arxiv %}
+        <li><a href="{{ sidebar.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
+      {% endif %} -->
+      {% if sidebar.googlescholar %}
+        <li><a href="{{ sidebar.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
+      {% endif %}
+      <!-- {% if sidebar.orcid %}
+        <li><a href="{{ sidebar.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      {% endif %}
+      {% if sidebar.researchgate %}
+        <li><a href="{{ sidebar.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+      {% endif %} -->
+      {% if sidebar.github %}
+        <li><a href="https://github.com/{{ sidebar.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>GitHub</a></li>
+      {% endif %}
+      <!-- {% if sidebar.bluesky %}
+        <li><a href="https://bsky.app/profile/{{ sidebar.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
+      {% endif %}
+      {% if sidebar.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ sidebar.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+      {% endif %}
+      {% if sidebar.twitter %}
+        <li><a href="https://twitter.com/{{ sidebar.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X (formerly Twitter)</a></li>
+      {% endif %}
+      {% if sidebar.speakerdeck %}
+        <li><a href="{{ sidebar.speakerdeck }}"><i class="fab fa-fw fa-slideshare icon-pad-right" aria-hidden="true"></i>SpeakerDeck</a></li>
+      {% endif %}
+      {% if sidebar.youtube %}
+        <li><a href="https://www.youtube.com/c/{{ sidebar.youtube }}"><i class="fab fa-fw fa-youtube icon-pad-right" aria-hidden="true"></i>YouTube</a></li>
+      {% endif %} -->
+    </ul>
+  </div>
+
+
+  {% if page.sidebar %}
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}

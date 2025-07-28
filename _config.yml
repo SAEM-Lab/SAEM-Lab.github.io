@@ -10,75 +10,15 @@
 locale                   : "en-UK"
 site_theme               : "default"  # Currently available options are "default", "air"
 # TODO: try air
-title                    : "Seán R. Kavanagh"
+title                    : "Simulation of Advanced Materials Lab"
 title_separator          : "-"
-name                     : &name "Seán R. Kavanagh"
-description              : &description "SAM Lab"  # TODO
-# description              : &description "Incoming Assistant Professor in Simulation of Energy Materials"  # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://kavanase.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+name                     : &name "Simulation of Advanced Materials Lab"
+description              : &description "Simulation of Advanced Materials (SAM) Lab at the University of Cambridge"  # Update this with a general description of your site, this is the default if not overridden by a page
+url                      : https://SAM-Lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "kavanase/kavanase.github.io"
-
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
-  avatar           : "profile.jpg"
-  name             : "Seán R. Kavanagh"
-  pronouns         : # example: "she/her"
-  bio              : "Incoming Assistant Professor in Energy Materials Modelling, at the University of Cambridge."
-  location         : "Cambridge, MA"
-  employer         : "Harvard University"
-  uri              : "https://seankavanagh.com"
-  email            : "skavanagh@seas.harvard.edu"
-
-  # Academic websites
-  academia         : # URL
-  arxiv            : "http://arxiv.org/a/kavanagh_s_1"
-  googlescholar    : "https://bit.ly/3pBMxOG"
-  impactstory      : # URL
-  orcid            : "https://orcid.org/0000-0003-4577-9647"
-  semantic         : # URL
-  pubmed           : # URL
-  researchgate     : "https://www.researchgate.net/profile/Sean-Kavanagh-3"
-  scopus           : # URL
-
-  # Repositories and software development
-  bitbucket        : # Username - Update with your username on the site
-  codepen          : # Username
-  dribbble         : # Username
-  github           : "kavanase"
-  kaggle           : # Username
-  stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
-
-  # Social media
-  bluesky          : "kavanaghsean.bsky.social"
-  facebook         : # Username
-  flickr           : # Username
-  foursquare       : # Username
-  goodreads        : # Username
-  google_plus      : # Username
-  keybase          : # Username
-  instagram        : # Username
-  lastfm           : # Username
-  linkedin         : "seankav"  # "https://www.linkedin.com/in/seankav/"
-  mastodon         : # URL
-  medium           : # URL
-  pinterest        : # Username
-  soundcloud       : # Username
-  speakerdeck      : "http://speakerdeck.com/kavanase"
-  steam            : # Username
-  telegram         : # URL
-  tumblr           : # Username
-  twitter          : "Kavanagh_Sean_"
-  vine             : # Username
-  weibo            : # Username
-  wikipedia        : # Username
-  xing             : # Username
-  youtube          : "SeánRKavanagh"  # "https://bit.ly/2U5YgLf"
-  zhihu            : # Username
+repository               : "SAEM-Lab/SAEM-Lab.github.io"
+sidebar_image            : "sidebar_image.png"
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
