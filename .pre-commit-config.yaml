@@ -1,0 +1,12 @@
+exclude: ^(Images)
+repos:
+  # Check typos:
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.4.1
+    hooks:
+      - id: codespell
+        stages: [commit,commit-msg]
+        args:
+          - --ignore-words-list=SAEM,rouge
+          - --skip=_data/ui-text.yml,_sass/_syntax.scss,_sass/vendor/font-awesome/_variables.scss
+        exclude: '\.(js|svg)$'

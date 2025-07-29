@@ -19,7 +19,7 @@
   margin-#{$from}: space($columns, $context, $style);
 }
 
-// 'push' is a synonymn for 'pre'
+// 'push' is a synonym for 'pre'
 @mixin push(
   $columns,
   $context  : $total-columns,

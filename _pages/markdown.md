@@ -316,7 +316,7 @@ Basic notices or call-outs are supported using the following syntax:
 {: .notice}
 ```
 
-which wil render as:
+which will render as:
 
 **Watch out!** You can also add notices by appending `{: .notice}` to the line following paragraph.
 {: .notice}
