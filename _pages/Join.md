@@ -1,5 +1,6 @@
 ---
 sidebar: false
+permalink: /Join.html
 ---
 
 # Join Us
