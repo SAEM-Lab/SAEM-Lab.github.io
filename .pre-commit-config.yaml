@@ -7,6 +7,6 @@ repos:
       - id: codespell
         stages: [commit,commit-msg]
         args:
-          - --ignore-words-list=SAEM,rouge
+          - --ignore-words-list=SAM,rouge
           - --skip=_data/ui-text.yml,_sass/_syntax.scss,_sass/vendor/font-awesome/_variables.scss
         exclude: '\.(js|svg)$'

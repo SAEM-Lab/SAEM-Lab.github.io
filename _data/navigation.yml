@@ -14,19 +14,13 @@ main:
   - title: "Publications"
     url: https://scholar.google.com/citations?user=P-7ICrQAAAAJ&hl=en
     target: "_blank"
-
-#  - title: "Talks"
-#    url: /talks/    # just do CV
-
-  # - title: "Awards"  # unnecessary
-  #   url: /awards/
-
-#  - title: "Teaching"  # unnecessary
-#    url: /teaching/
-
+  
   - title: "Software"
-    url: https://github.com/kavanase
-    target: "_blank"
+    url: /Codes/
+
+  # - title: "Software"
+  #   url: https://github.com/kavanase
+  #   target: "_blank"
     
 # - title: "CV"  # just link at some point
 #   url: https://kavanase.github.io/files/Sean_Kavanagh_CV.pdf
