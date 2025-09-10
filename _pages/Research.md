@@ -1,9 +1,9 @@
 ---
 sidebar: true
 permalink: /Research/
+title: "Research Interest Areas"
 ---
 
-# Research Interest Areas
 <!-- ![](/images/Draft%20Group%20Overview.png) -->
 <!-- Overview image, not helpful? -->
 

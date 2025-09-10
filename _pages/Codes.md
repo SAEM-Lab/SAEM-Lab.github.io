@@ -1,9 +1,8 @@
 ---
 sidebar: true
 permalink: /Codes/
+title: "Codes"
 ---
-
-# Codes
 
 We lead and contribute to the development of a range of computational packages to support our research, primarily based in Python.
 These computational tools are open-source and are used by thousands of other researchers worldwide.

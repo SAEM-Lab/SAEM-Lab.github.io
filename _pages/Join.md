@@ -1,9 +1,9 @@
 ---
 sidebar: true
 permalink: /Join/
+title: "Join Us"
 ---
 
-# Join Us
 <div style="float: right; width: 180px; margin-left: 15px;">
   <img src="/images/Sean_Headshot_Square.jpg"  alt="Seán" style="width: 100%; border-radius: 8px;">
 </div>
