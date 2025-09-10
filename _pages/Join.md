@@ -4,35 +4,36 @@ permalink: /Join.html
 ---
 
 # Join Us
+<div style="float: right; width: 180px; margin-left: 15px;">
+  <img src="/images/Sean_Headshot_Square.jpg"  alt="Seán" style="width: 100%; border-radius: 8px;">
+</div>
+We are actively recruiting motivated students and post-doctoral researchers! <br>
+You can reach out to Seán via email (sk2045[at]cam.ac.uk), and it is helpful to include a brief description of your background, a CV and any relevant experience, to help determine potential research projects.<br><br>
 
-We are actively recruiting motivated students and post-doctoral researchers.
-Experience with computational methods (Python / coding, machine learning, DFT...) is certainly a plus, but not required – just a willingness to learn and a passion for research!
-(Seán had no experience before his PhD and he somehow became a professor).
-Some knowledge in the physical sciences (chemistry, physics, materials science, maths) is also beneficial, but again not a dealbreaker and we are happy to train you in the necessary background.
+Experience with computational methods (Python / coding, machine learning, DFT...) is certainly a plus, but not required, just a willingness to learn and a passion for research! (Seán had no computational experience before his PhD!).
+Some knowledge in the physical sciences – chemistry, physics, materials science, maths – is also beneficial, but again not a dealbreaker and we are happy to train you in the necessary background.
 
-We have built a comprehensive internal wiki and accompanying set of group resources (code & video tutorials, condensed notes and walkthroughs) to help you get up to speed quickly, while Seán and other group members are committed to mentoring you through your growth as an independent researcher.
-We are a friendly and inclusive group, and we welcome students from all backgrounds.
+<div style="float: right; width: 180px; margin-left: 15px; margin-bottom: 20px;">
+  <img src="https://substackcdn.com/image/fetch/$s_!ebfk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc878b00-a7af-436f-af87-af8ccb6ecd92_1024x768.jpeg"  alt="Join US" style="width: 100%; border-radius: 8px;">
+</div>
+Our [Research](/research.html) page gives a flavour of what we do, but we are always open to new ideas and approaches, so if you have a specific project in mind that you would like to work on, feel free to reach out.
+
+## Our Commitment to You
+We have built a comprehensive internal wiki and accompanying set of group resources (code & video tutorials, condensed notes and walkthroughs) to help you get up to speed quickly. Seán and group members are committed to mentoring you through your growth as an independent researcher.
+We are a friendly and inclusive group, and we welcome all backgrounds.
 <!-- We have a weekly group meeting where we discuss ongoing projects, share ideas, and provide feedback.  -->
 <!-- This collaborative environment ensures that you are never alone in your research and that help is always available when you need it. -->
 
 <!-- Should add a group photo here once we have one! -->
-<img src="https://substackcdn.com/image/fetch/$s_!ebfk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc878b00-a7af-436f-af87-af8ccb6ecd92_1024x768.jpeg" alt="One of Us" width="500px" class="img-fluid">
 
-As mentioned on our [Research](/research.html) page, we work on a variety of topics in computational materials science, with a focus on energy materials and machine learning. We are particularly interested in projects that involve the development of new computational methods or the application of existing methods to solve challenging problems in materials science.
-Gives a flavour of what we do, but we are always open to new ideas and approaches, so if you have a specific project in mind that you would like to work on, please feel free to reach out.
+Undergraduate, Masters' and PhD students that Seán has supervised have won research awards (Catlow prize for best PhD in Chemistry, Sharp and Nyholm prizes for best MSc/MSci in Theoretical and Inorganic Chemistry respectively, ...), published papers in leading journals  (_Energy & Environmental Science_, _npj Computational Materials_, _Joule_, _Matter_...) and achieved top grades for their projects.
 
-You can reach out to Seán via email (sk2045[at]cam.ac.uk), and it is helpful to include a brief description of your background, a CV and any relevant experience, to help determine potential research projects.
-
-**Should have a photo of me somewhere!**
+<!-- _Nature Reviews Materials_ -->
 
 ## Fellowships
-We are extremely supportive of students applying for external fellowships to fund their research, and we have a strong track record of success in this area. If you are interested in applying for a fellowship, please reach out to Seán to discuss potential projects and application strategies.
+We are extremely supportive of students and postdocs applying for external fellowships to fund their research, and we have a strong track record of success in this area. There are a number of opportunities for fellowships at Cambridge.
+If you are interested in applying for a fellowship, please reach out to Seán to discuss potential projects and application strategies.
 
-
-## Post-Doctoral Researchers
-
-
-Many of the undergraduate students I have mentored have won research awards (thesis prize, NSF GRFP, MIT poster award) and have co-authored papers in top venues (e.g. ICML 2021, RECOMB/Cell Systems 2022, RECOMB 2024/Nature Methods 2025).
 
 
 <!-- From Uthsav's website; could be useful if we do get inundated: -->

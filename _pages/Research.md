@@ -7,12 +7,11 @@ permalink: /Research.html
 <!-- ![](/images/Draft%20Group%20Overview.png) -->
 <!-- Overview image, not helpful? -->
 
-At the SAM lab, we aim to employ the most powerful computational techniques available to tackle crucial materials challenges for a better world.
+At the SAM lab, we develop and employ the most powerful computational techniques available to tackle crucial materials challenges for a better world.
 Currently, this includes quantum-mechanical (e.g. DFT, GW) and machine-learning approaches, which we use to investigate, design and develop advanced materials across a range of technologies.
-We have a particularly strong interest in materials for energy conversion (such as solar cells, photocatalysts and thermoelectrics) and energy storage (primarily batteries).
-Some core areas of focus are given below, but we are flexible to the skillsets and interests of those who join our team!
 
-**Collaboration and conferences (with a photo from one perhaps?)**
+We have a particularly strong interest in materials for energy conversion (such as solar cells, photocatalysts and thermoelectrics) and energy storage (e.g. batteries).
+Some core focus areas are given below, but we are flexible to the skillsets and interests of those who join our team!
 
 ## Our Tools
 <div style="float: right; width: 200px; margin-left: 15px;">
@@ -103,3 +102,7 @@ See the [Codes](/Codes.html) page for more details on the software developed in 
 - [ShakeNBreak: Navigating the defect configurational landscape](https://joss.theoj.org/papers/10.21105/joss.04817) _Journal of Open Source Software_ 2022
 - [doped: Python toolkit for robust and repeatable charged defect supercell calculations](https://joss.theoj.org/papers/10.21105/joss.06433) _Journal of Open Source Software_ 2024
 - [easyunfold: A Python package for unfolding electronic band structures](https://joss.theoj.org/papers/10.21105/joss.05974) _Journal of Open Source Software_ 2024
+
+
+<br><br>
+Some of these studies are showcased on Seán's [YouTube](https://www.youtube.com/c/Se%C3%A1nRKavanagh) channel!

@@ -10,10 +10,6 @@
 main:
   - title: "Research"
     url: /Research/
-
-  - title: "Publications"
-    url: https://scholar.google.com/citations?user=P-7ICrQAAAAJ&hl=en
-    target: "_blank"
   
   - title: "Software"
     url: /Codes/
@@ -31,3 +27,7 @@ main:
 
   - title: "Join"
     url: /Join/
+
+  - title: "Publications"
+    url: https://scholar.google.com/citations?user=P-7ICrQAAAAJ&hl=en
+    target: "_blank"
