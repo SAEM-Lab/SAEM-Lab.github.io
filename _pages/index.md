@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 <style>
-body {
+html:not([data-theme="dark"]) body {
     background-image: url('/images/Faded_AgBiS2_15pct_NC_Cover_Image.jpg');
     background-size: cover;
     background-position: center;
