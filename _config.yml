@@ -13,10 +13,10 @@ title                    : "SAM Lab"
 title_separator          : "-"
 name                     : &name "Simulation of Advanced Materials Lab"
 description              : &description "Simulation of Advanced Materials (SAM) Lab at the University of Cambridge"  # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://SAM-Lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://SAEM-Lab.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "SAM-Lab/SAM-Lab.github.io"
+repository               : "SAEM-Lab/SAM-Lab.github.io"
 sidebar_image            : "sidebar_image.png"
 
 # Site Settings
