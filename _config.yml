@@ -9,7 +9,6 @@
 # Site Settings
 locale                   : "en-UK"
 site_theme               : "default"  # Currently available options are "default", "air"
-# TODO: try air
 title                    : "SAM Lab"
 title_separator          : "-"
 name                     : &name "Simulation of Advanced Materials Lab"

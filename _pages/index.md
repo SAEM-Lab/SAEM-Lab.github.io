@@ -27,13 +27,11 @@ Using our insights from these calculations, run on massive high-performance comp
 
 The team is led by Dr. Seán Kavanagh, and is part of the vibrant materials modelling community at Cambridge, including the [Lennard Jones Centre](https://ljc.group.cam.ac.uk/).
 
-**Eye-catching image like Aron, perhaps -- something that makes it look cool but accessible?**
-
 ## Interested in joining the SAM Lab?
 We are actively looking for motivated students and postdocs! 
 Check out our current [Research](Research) interest areas, and the [Join](Join) page if you are interested in being part of the team.
 
-<br><br>
+<br>
 <a href="https://doi.org/10.1039/D1SC03775G">
   <img align="left" width="375" src="/images/Chem_Sci_Cover.png">
 </a>
@@ -44,14 +42,17 @@ Check out our current [Research](Research) interest areas, and the [Join](Join) 
 
 
 ### Recent Highlights
-[//]: # (put Cambridge announcement post here when ready)
-
-TODO: LinkedIn/Twitter widget here?
+TODO
 
 ### TODOs:
-- LinkedIn/Twitter widget
-- Photo from a conference could be nice
+- Photo from a conference could be nice (in recent highlights?)
 - Fig 3.6 from Thesis perhaps, doped carrier concentration heatmaps... Split vacancies figure maybe
 - Want to link codes, to get a flavour of what we do (In research?). Could maybe have a separate Codes page like Alex? Stuff from doped/SnB docs sites could be nice, like SnB gif etc
 - Likewise, YouTube
 - Style etc; after content. I'd like a different font, like Alex's site.
+- Update links on SAM Lab github and description, add link to website at top of README.
+- Link on kavanase website etc
+- Update our socials descriptions
+
+### Ideal TODOs:
+- Eye-catching image -- something that makes it look cool but accessible?

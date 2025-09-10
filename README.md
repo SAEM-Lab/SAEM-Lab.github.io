@@ -1,14 +1,3 @@
-<style>
-body {
-    background-image: url('/images/Faded_AgBiS2_25pct_NC_Cover_Image.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-}
-</style>
-
 # Welcome to the **Simulation of Advanced Materials** (SAM) Lab at the University of Cambridge!
 
 ## What We Do
