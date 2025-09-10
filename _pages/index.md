@@ -49,10 +49,12 @@ Check out our current [Research](Research) interest areas, and the [Join](Join) 
 <div class="commonninja_component pid-8da7349b-2335-4733-a4b8-3e8e24f39701"></div>
 
 ### TODOs:
+- Stats counter
 - Photo from a conference could be nice (in recent highlights?)
 - Fig 3.6 from Thesis perhaps, doped carrier concentration heatmaps... Split vacancies figure maybe
 - Want to link codes, to get a flavour of what we do (In research?). Could maybe have a separate Codes page like Alex? Stuff from doped/SnB docs sites could be nice, like SnB gif etc
 - Likewise, YouTube
+- Re-run through and make more succinct
 - Update links on SAM Lab github and description, add link to website at top of README.
 - Link on kavanase website etc
 - Update our socials descriptions
