@@ -1,6 +1,6 @@
 ---
 sidebar: true
-permalink: /Research.html
+permalink: /Research/
 ---
 
 # Research Interest Areas

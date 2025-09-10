@@ -1,6 +1,6 @@
 ---
 sidebar: true
-permalink: /Codes.html
+permalink: /Codes/
 ---
 
 # Codes
