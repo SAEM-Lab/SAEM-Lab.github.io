@@ -51,15 +51,3 @@ Travelling to conferences to present and discuss ideas with other researchers, w
   <img style="display: block;" width="250" src="/images/PsiK_2025_CECI.jpeg" alt="PsiK 2025 CECI">
   <img style="display: block;" width="250" src="/images/PsiK_2025_Party.jpeg" alt="PsiK 2025 Party">
 </div>
-
-
-### TODOs:
-- Re-run through and make more succinct
-- Update links on SAM Lab github and description, add link to website at top of README.
-- Link on kavanase website etc
-- Update our socials descriptions
-
-### Ideal TODOs:
-- Style etc; after content. I'd like a different font, like Alex's site.
-- Eye-catching image -- something that makes it look cool but accessible? Happy with what we have?
-  - Fig 3.6 from Thesis perhaps, doped carrier concentration heatmaps... Split vacancies figure maybe
