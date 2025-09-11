@@ -54,7 +54,6 @@ Travelling to conferences to present and discuss ideas with other researchers, w
 
 
 ### TODOs:
-- Stats counter
 - Re-run through and make more succinct
 - Update links on SAM Lab github and description, add link to website at top of README.
 - Link on kavanase website etc
